@@ -1,0 +1,20 @@
+@import "./src/assets/color";
+
+.sub-menu-cont{
+  max-width: 1366px;
+  top: 0;
+  display: grid;
+  grid-column-gap: 100px;
+  grid-row-gap: 20px;
+  justify-content: space-between;
+  padding: 20px;
+  .sub-menu-list-title{
+    cursor: pointer;
+  }
+  .sub-menu-item{
+    color: $gray;
+    font-size: 12px;
+    margin: 5px 0;
+    cursor: pointer;
+  }
+}

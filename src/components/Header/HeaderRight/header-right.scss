@@ -1,0 +1,32 @@
+@import "./src/assets/color";
+.header-right-cont{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  & > * {
+    margin: 0 0 0 15px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .header-logged-in-user-cont{
+    display: flex;
+    flex-direction: column;
+    & > p {
+      margin: 0;
+    }
+    & > p:first-child{
+      font-size: 14px;
+    }
+    & > p:last-child{
+      color: $gray;
+      font-size: 12px;
+      margin-top: -3px;
+    }
+
+  }
+  .header-country{
+    max-width: 16px;
+    max-height: 16px;
+    border-radius: 8px;
+  }
+}

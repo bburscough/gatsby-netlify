@@ -1,0 +1,32 @@
+@import "./src/assets/color";
+
+.btn{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $black;
+  color: white;
+  border: solid 2px $black;
+  .btn-txt{
+    text-transform: uppercase;
+    margin: 10px 30px;
+  }
+  .no-cap{
+    text-transform: capitalize;
+  }
+}
+.btn-red{
+  background-color: $red;
+  border: solid 2px $red;
+}
+.btn-outline{
+  background-color: white;
+  color: $black;
+}
+.btn-outline.btn-red {
+  color: $red;
+}
+
+.btn-full{
+  display: flex;
+}

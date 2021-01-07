@@ -1,0 +1,11 @@
+.header-menu-cont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  & > * {
+    padding: 25px 15px;
+    cursor: pointer;
+    margin: 0;
+  }
+}

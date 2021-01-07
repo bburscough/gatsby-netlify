@@ -1,0 +1,19 @@
+@import "./src/assets/color";
+
+.heading-cont{
+  display: flex;
+  flex-direction: column;
+  white-space: initial;
+  .heading{
+    font-size: 22px;
+    font-weight: normal;
+  }
+  .small-heading{
+    margin: 10px 0 16px 0;
+    font-size: 16px;
+  }
+  .sub-heading{
+    margin: -10px 0 16px 0;
+    color: $gray;
+  }
+}

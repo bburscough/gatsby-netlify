@@ -1,0 +1,43 @@
+@import "HeaderLeft/header-left";
+@import "HeaderMenu/header-menu";
+@import "HeaderRight/header-right";
+@import "SubMenu/sub-menu";
+@import "./src/assets/color";
+
+.header-section{
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  z-index: 3;
+  .primary-header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 1px $lightgrey;
+    .header-cont{
+      max-width: 1366px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex: 1;
+
+      & > * {
+        flex: 1;
+      }
+    }
+  }
+  .secondary-header{
+    margin-top: -1px;
+    border-top: solid 1px $lightgrey;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    -webkit-box-shadow: 0 8px 6px -6px $lightgrey;
+    -moz-box-shadow: 0 8px 6px -6px $lightgrey;
+    box-shadow: 0 8px 6px -6px $lightgrey;
+    position: absolute;
+    z-index: 2;
+    background-color: white;
+  }
+}
