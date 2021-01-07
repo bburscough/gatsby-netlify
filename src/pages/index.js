@@ -189,7 +189,7 @@ class IndexPage extends Component {
             <div className={"shop-the-look-cont"}>
               <Heading heading={"Shop the Look"}/>
               <div className={"shop-the-look-slider"}>
-                <div className={"slider-nav"} style={{width: window.innerWidth<1366 ? window.innerWidth-60+"px" : 1366-60+"px"}}>
+                <div className={"slider-nav"} style={{width: width<1366 ? width-60+"px" : 1366-60+"px"}}>
                   <IconContext.Provider value={{color: "white", size: "20px"}}>
                     <div
                       className={"nav-icon-cont nav-icon-cont-left"}
