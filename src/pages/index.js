@@ -229,12 +229,5 @@ class IndexPage extends Component {
       )
   }
 }
-IndexPage.propTypes = {
-  children: PropTypes.func.isRequired,
-  location: PropTypes.shape({
-    pathname: PropTypes.string,
-  }).isRequired,
-  data: PropTypes.object.isRequired
-};
 
 export default IndexPage
